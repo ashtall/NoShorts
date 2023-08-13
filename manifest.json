@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "No Shorts",
+    "description": "Removes the Shorts tab on the left and does not recommend Shorts on the homepage.",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts":[
+        {
+            "css":["injection.css"],
+            "matches":[
+                "https://*.youtube.com/*"
+            ]
+        }
+    ]
+}
