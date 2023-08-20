@@ -10,4 +10,6 @@ ytd-reel-shelf-renderer{
     display: none !important;
 }
 
-
+ytd-mini-guide-entry-renderer a[title="Shorts"]{
+    display: none !important;
+}
