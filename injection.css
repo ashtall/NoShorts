@@ -13,3 +13,7 @@ ytd-reel-shelf-renderer{
 ytd-mini-guide-entry-renderer a[title="Shorts"]{
     display: none !important;
 }
+
+#search-icon.style-scope.ytd-searchbox {
+    display: none !important;
+}
