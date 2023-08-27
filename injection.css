@@ -17,3 +17,7 @@ ytd-mini-guide-entry-renderer a[title="Shorts"]{
 #search-icon.style-scope.ytd-searchbox {
     display: none !important;
 }
+
+#big-yoodle{
+    display: none !important;
+}
