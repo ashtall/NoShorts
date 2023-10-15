@@ -21,3 +21,7 @@ ytd-mini-guide-entry-renderer a[title="Shorts"]{
 #big-yoodle{
     display: none !important;
 }
+
+tp-yt-paper-dialog{
+    display: none;
+}
